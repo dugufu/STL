@@ -23,6 +23,16 @@ void test01()
 		v2.push_back(i);
 	}
 
+	for (int i = 0; i < 10; i += 2)
+	{
+		v2.push_back(i);
+	}
+// 	vector<int>vTarget;
+// 	vTarget.resize(v.size() + v2.size());
+// 	//no conflict needed
+// 	merge(v.begin(), v.end(), v2.begin(), v2.end(), vTarget.begin());
+// 	for_each(vTarget.begin(), vTarget.end(), myPrint);//abc 1234
+	//this is text
 	
 }
 
