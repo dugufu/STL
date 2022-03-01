@@ -25,8 +25,10 @@ void test01()
 
 	vector<int>vTarget;
 	vTarget.resize(v.size() + v2.size());
+	//no conflict needed
 	merge(v.begin(), v.end(), v2.begin(), v2.end(), vTarget.begin());
 	for_each(vTarget.begin(), vTarget.end(), myPrint);//abc 1234
+	//this is text
 }
 
 int main() {
