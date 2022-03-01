@@ -33,6 +33,7 @@ void test01()
 // 	merge(v.begin(), v.end(), v2.begin(), v2.end(), vTarget.begin());
 // 	for_each(vTarget.begin(), vTarget.end(), myPrint);//abc 1234
 	//this is text
+	
 }
 
 int main() {
